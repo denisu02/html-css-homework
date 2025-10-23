@@ -237,32 +237,32 @@ body {
 }
 
 .front{
-    background-image: url(/images/front.jpg);
+    background-image: url(../images/front.jpg);
     transform: translateZ(100px);
 }
 
 .back{
-    background-image: url(/images/back.jpg);
+    background-image: url(../images/back.jpg);
     transform: rotateY(180deg) translateZ(100px);
 }
 
 .right {
-    background-image: url(/images/right.jpg);
+    background-image: url(../images/right.jpg);
     transform: rotateY(90deg) translateZ(100px);
 }
 
 .left{
-    background-image: url(/images/left.jpg);
+    background-image: url(../images/left.jpg);
     transform: rotateY(-90deg) translateZ(100px);
 }
 
 .top{
-    background-image: url(/images/top.jpg);
+    background-image: url(../images/top.jpg);
     transform: rotateX(90deg) translateZ(100px);
 }
 
 .bottom{
-    background-image: url(/images/bottom.jpg);
+    background-image: url(../images/bottom.jpg);
     transform: rotateX(-90deg) translateZ(100px);
 }
 
