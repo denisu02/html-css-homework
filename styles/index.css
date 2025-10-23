@@ -257,7 +257,7 @@ body {
 }
 
 .top{
-    background-image: url(../images/top.jpg);
+    background-image: url(/images/top.jpg);
     transform: rotateX(90deg) translateZ(100px);
 }
 
