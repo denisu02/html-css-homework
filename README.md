@@ -9,7 +9,7 @@ Deployed on GitHub Pages for easy access and sharing.
 
 Build the project planned in **HTML & CSS Project** Planning task.
 
-Use semantic tags **(<header>, <main>, <section>, <footer>, etc.)**.
+Use semantic tags **(header, main, section, footer, etc.)**.
 
 Use **Flexbox** and/or **Grid** for layout.
 
