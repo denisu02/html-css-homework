@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
 body {
     background: linear-gradient(135deg, #2e2d2d 0%, #151718 100%);
     color: #e0e0e0;
@@ -21,9 +22,9 @@ body {
 
 .main.dark-theme {
     background: rgba(30, 30, 30, 0.8);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border-radius: 18px;
-    margin: 80px auto 0; 
+    margin: 80px auto 0;
     max-width: 900px;
     padding: 60px 40px;
     text-align: center;
@@ -52,7 +53,7 @@ body {
     font-size: 1.1em;
     font-weight: 600;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(197,157,95,0.2);
+    box-shadow: 0 2px 8px rgba(197, 157, 95, 0.2);
     transition: background 0.3s, color 0.3s;
     text-decoration: none;
     display: inline-block;
@@ -74,11 +75,11 @@ body {
 .feature {
     background: rgba(36, 36, 36, 0.85);
     border-radius: 14px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
     padding: 32px 24px;
     flex: 1;
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 1px solid rgba(197,157,95,0.08);
+    border: 1px solid rgba(197, 157, 95, 0.08);
 }
 
 .feature h2 {
@@ -94,7 +95,7 @@ body {
 
 .feature:hover {
     transform: translateY(-10px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(197,157,95,0.12);
+    box-shadow: 0 8px 32px rgba(197, 157, 95, 0.12);
 }
 
 .inventory.dark-theme,
@@ -102,7 +103,7 @@ body {
 .contact.dark-theme {
     background: rgba(24, 24, 24, 0.92);
     border-radius: 18px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
     margin: 40px auto;
     max-width: 900px;
     min-width: 500px;
@@ -129,14 +130,14 @@ body {
     background: rgba(36, 36, 36, 0.92);
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45);
     transition: transform 0.3s, box-shadow 0.3s;
-    border: 1px solid rgba(197,157,95,0.08);
+    border: 1px solid rgba(197, 157, 95, 0.08);
 }
 
 .car-card:hover {
     transform: translateY(-10px) scale(1.03);
-    box-shadow: 0 8px 32px rgba(197,157,95,0.12);
+    box-shadow: 0 8px 32px rgba(197, 157, 95, 0.12);
 }
 
 .car-card img {
@@ -176,10 +177,10 @@ body {
     padding: 12px;
     border: none;
     border-radius: 6px;
-    background: rgba(36,36,36,0.95);
+    background: rgba(36, 36, 36, 0.95);
     color: #fff;
     font-size: 1em;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
     transition: outline 0.3s, box-shadow 0.3s;
 }
 
@@ -196,7 +197,7 @@ body {
 }
 
 .dark-footer {
-    margin-top: auto; 
+    margin-top: auto;
     width: 100%;
     background: #222;
     color: #fff;
@@ -204,12 +205,12 @@ body {
     padding: 1rem 0;
     font-size: 1em;
     letter-spacing: 1px;
-    border-top: 1px solid rgba(197,157,95,0.08);
+    border-top: 1px solid rgba(197, 157, 95, 0.08);
 }
 
 * {
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .container-cube {
@@ -219,7 +220,7 @@ body {
     margin: 50px auto;
 }
 
-.cube{
+.cube {
     position: relative;
     width: 100%;
     height: 100%;
@@ -236,33 +237,33 @@ body {
     background-position: center;
 }
 
-.front{
-    background-image: url(../images/front.jpg);
+.front {
+    background-image: url(/html-css-homework/images/front.jpg);
     transform: translateZ(100px);
 }
 
-.back{
-    background-image: url(../images/back.jpg);
+.back {
+    background-image: url(/html-css-homework/images/back.jpg);
     transform: rotateY(180deg) translateZ(100px);
 }
 
 .right {
-    background-image: url(../images/right.jpg);
+    background-image: url(/html-css-homework/images/right.jpg);
     transform: rotateY(90deg) translateZ(100px);
 }
 
-.left{
-    background-image: url(../images/left.jpg);
+.left {
+    background-image: url(/html-css-homework/images/left.jpg);
     transform: rotateY(-90deg) translateZ(100px);
 }
 
-.top{
-    background-image: url(/images/top.jpg);
+.top {
+    background-image: url(/html-css-homework/images/top.jpg);
     transform: rotateX(90deg) translateZ(100px);
 }
 
-.bottom{
-    background-image: url(../images/bottom.jpg);
+.bottom {
+    background-image: url(/html-css-homework/images/bottom.jpg);
     transform: rotateX(-90deg) translateZ(100px);
 }
 
@@ -270,12 +271,14 @@ body {
     0% {
         transform: rotateY(0deg) rotateX(0deg);
     }
+
     100% {
         transform: rotateY(360deg) rotateX(360deg);
     }
 }
 
 @media (max-width: 1200px) {
+
     .main.dark-theme,
     .features.dark-theme,
     .inventory.dark-theme,
@@ -285,6 +288,7 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .car-grid {
         gap: 18px;
     }
@@ -295,6 +299,7 @@ body {
         flex-direction: column;
         gap: 18px;
     }
+
     .car-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -306,34 +311,42 @@ body {
         padding-top: 40px;
         margin: 60px auto 0;
     }
+
     .main-content h1 {
         font-size: 2em;
     }
+
     .features.dark-theme {
         gap: 10px;
     }
+
     .inventory.dark-theme,
     .about.dark-theme,
     .contact.dark-theme {
         padding: 20px 4px;
         min-width: unset;
     }
+
     .car-grid {
         grid-template-columns: 1fr;
         gap: 12px;
         margin-top: 20px;
     }
+
     .car-card img {
         height: 180px;
     }
+
     .btn-primary {
         padding: 10px 18px;
         font-size: 1em;
     }
+
     .dark-footer {
         font-size: 0.9em;
         padding: 0.7rem 0;
     }
+
     .contact-form {
         max-width: 98vw;
         padding: 0 4px;

@@ -25,7 +25,8 @@
     font-weight: 500;
 }
 
-.navbar a:hover, .navbar a.highlight {
+.navbar a:hover,
+.navbar a.highlight {
     color: #c59d5f;
 }
 
@@ -64,19 +65,22 @@
         top: 60px;
         right: 0;
         width: 180px;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
         border-radius: 0 0 8px 8px;
         z-index: 100;
     }
-    #nav-toggle:checked ~ nav ul {
+
+    #nav-toggle:checked~nav ul {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 15px 0;
     }
+
     .hamburger {
         display: flex;
     }
+
     .navbar {
         position: relative;
     }
